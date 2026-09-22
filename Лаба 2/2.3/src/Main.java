@@ -8,7 +8,7 @@ public class Main {
     }
 }
 class Bell {
-    private int count = 0;
+    private int count = 0; //кол-во ударов
     public void sound() {
         if (count % 2 == 0) {
             System.out.println("ding");
@@ -18,6 +18,3 @@ class Bell {
         count++;
     }
 }
-
-
-
